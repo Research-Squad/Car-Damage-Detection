@@ -45,7 +45,7 @@ Folder Structure (a) - Damage Reports
 * * * scratch
 * * * vehicle
 
-## Images
+## Image Examples
 
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
