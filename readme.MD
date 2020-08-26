@@ -9,8 +9,25 @@ Locations
 * * Asperg (a)
 * * Ellgau (a)
 * * Essen (a)
-* * KI (b)
-* * Marker (c)
+* * KI
+* * * First Step Ordner
+* * *  Quick Check Daten
+* * Marker
+* * * Bialek
+* * * Eisfeld
+* * * Felix
+* * * * N0U101
+* * * * * {date}
+* * * * * * {time}
+* * * * * * * face
+* * * * * * * thumbnails
+* * * * * * * {img-name} (96 files)
+* * * * ...(5 more)
+* * * Hakobyan
+* * * Marker1
+* * * Theodor
+* * * Theodor1
+* * * Victor
 * * Nuernberg (a)
 * * Stuttgart (a)
 
@@ -27,20 +44,6 @@ Folder Structure (a) - Damage Reports
 * * * rim damage
 * * * scratch
 * * * vehicle
-
-Folder Structure (b) - ?
-* * * First Step Ordner
-* * *  Quick Check Daten
-
-Folder Structure (c) - Staff Names?
-* * * Bialek
-* * * Eisfeld
-* * * Felix
-* * * Hakobyan
-* * * Marker1
-* * * Theodor
-* * * Theodor1
-* * * Victor
 
 
 ## Hardware
