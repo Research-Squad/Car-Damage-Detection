@@ -1,5 +1,48 @@
 # Data
 
+## Storage Share
+
+* ADA
+
+Locations
+
+* * Asperg (a)
+* * Ellgau (a)
+* * Essen (a)
+* * KI (b)
+* * Marker (c)
+* * Nuernberg (a)
+* * Stuttgart (a)
+
+Folder Structure (a) - Damage Reports
+
+* * * corrosion
+* * * crack
+* * * deformation
+* * * dent bump
+* * * dirt
+* * * misc
+* * * no damage
+* * * reflection
+* * * rim damage
+* * * scratch
+* * * vehicle
+
+Folder Structure (b) - ?
+* * * First Step Ordner
+* * *  Quick Check Daten
+
+Folder Structure (c) - Staff Names?
+* * * Bialek
+* * * Eisfeld
+* * * Felix
+* * * Hakobyan
+* * * Marker1
+* * * Theodor
+* * * Theodor1
+* * * Victor
+
+
 ## Hardware
 
 ### Cameras
