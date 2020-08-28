@@ -1,4 +1,4 @@
-# Damage Detection on Cars using Deflectometry & Computer Vision
+# Damage Detection on Cars using Computer Vision
 
 ## Overview
 Damage detection, bounding box, & classification model for slow moving vehicle seen from 8+ angles with ~10 images per angle.
@@ -192,11 +192,6 @@ Folder Structure (a) - Damage Reports
 ## Hardware
 
 ### Cameras
-6 Cameras - 2-3 photos for each - 4k resolution
-6 * 3 * 3840*2160 = 149,299,200 pixels per scan
-
-### Proposed
-Relectometry
 
 
 # Use Case
