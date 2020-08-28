@@ -17,11 +17,10 @@ Creation damage classification model for slow moving vehicle seen from 6+ angles
 
 # Data
 
-## Image Examples
+## Scanner
 
 We skip an image for each step
 
-### Scanner
 <table>
   <tr>
     <td rowspan="3">Links</td>
