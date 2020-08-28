@@ -1,12 +1,27 @@
 # Damage Detection on Cars using Deflectometry & Computer Vision
 
 ## Overview
-A project where we detect various classes of damage on cars moving through a device constructed to photgraph slow moving cars that pass through it. This device is already deployed at several locations of Merecedes Benz dealerships in Germany. We have image data from these locations, some labeled with damage. Our goal is to create a model that can detect damage, classify it, and create a bounding box of the damage location. The device has deflectometry pattern display screens which are commonly used for solving this kind of task.
+Creation damage classification model for slow moving vehicle seen from 6+ angles with ~10 images per angle.
+
+### Classes
+* corrosion
+* crack
+* deformation
+* dent bump
+* dirt
+* misc
+* no damage
+* reflection
+* rim damage
+* scratch
 
 # Data
 
 ## Image Examples
 
+We skip an image for each step
+
+### Scanner
 <table>
   <tr>
     <td rowspan="3">Links</td>
@@ -69,46 +84,6 @@ A project where we detect various classes of damage on cars moving through a dev
   </tr>
 </table>
 
-### Front
-<table>
-  <tr>
-    <td colspan="2">Nah</td>
-   <td colspan="2">Weit</td>
-  </tr>
-  <tr>
-    <td>Links</td>
-    <td>Rechts</td>
-    <td>Links</td>
-    <td>Rechts</td>
-  </tr>
-  <tr>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Front/2020-07-18%2B17-21-47%2BALU4567-Front%2BNah%2BLinks-_00023.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Front/2020-07-18%2B17-21-47%2BALU4567-Front%2BNah%2BRechts-_00020.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Front/2020-07-18%2B17-21-47%2BALU4567-Front%2BWeit%2BLinks-_00313.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Front/2020-07-18%2B17-21-47%2BALU4567-Front%2BWeit%2BRechts-_00310.jpg"></td>
-  </tr>
-</table>
-
-### Heck
-<table>
-  <tr>
-    <td colspan="2">Nah</td>
-   <td colspan="2">Weit</td>
-  </tr>
-  <tr>
-    <td>Links</td>
-    <td>Rechts</td>
-    <td>Links</td>
-    <td>Rechts</td>
-  </tr>
-  <tr>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Heck/2020-07-18%2B17-21-47%2BALU4567-Heck%2BNah%2BLinks-_00033.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Heck/2020-07-18%2B17-21-47%2BALU4567-Heck%2BNah%2BRechts-_00030.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Heck/2020-07-18%2B17-21-47%2BALU4567-Heck%2BWeit%2BLinks-_00043.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Heck/2020-07-18%2B17-21-47%2BALU4567-Heck%2BWeit%2BRechts-_00040.jpg"></td>
-  </tr>
-</table>
-
 ### Schweller
 <table>
   <tr>
@@ -118,6 +93,52 @@ A project where we detect various classes of damage on cars moving through a dev
   <tr>
     <td><img width="200" alt="car_img" src="Data-CarPictures/Schweller/2020-07-18%2B17-21-47%2BALU4567-Schweller-L-_00222.jpg"></td>
     <td><img width="200" alt="car_img" src="Data-CarPictures/Schweller/2020-07-18%2B17-21-47%2BALU4567-Schweller-R-_00243.jpg"></td>
+  </tr>
+</table>
+
+### Other
+
+<table>
+  <tr>
+    <td rowspan="4">Front</td>
+    <td rowspan="2">Nah</td>
+    <td>Links</td>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Front/2020-07-18%2B17-21-47%2BALU4567-Front%2BNah%2BLinks-_00023.jpg"></td>
+  </tr>
+  <tr>
+    <td>Rechts</td>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Front/2020-07-18%2B17-21-47%2BALU4567-Front%2BNah%2BRechts-_00020.jpg"></td>
+  </tr>
+  <tr>
+    <td rowspan="2">Weit</td>
+    <td>Links</td>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Front/2020-07-18%2B17-21-47%2BALU4567-Front%2BWeit%2BLinks-_00313.jpg"></td>
+  </tr>
+   <tr>
+    <td>Rechts</td>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Front/2020-07-18%2B17-21-47%2BALU4567-Front%2BWeit%2BRechts-_00310.jpg"></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td rowspan="4">Heck</td>
+    <td rowspan="2">Nah</td>
+    <td>Links</td>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Heck/2020-07-18%2B17-21-47%2BALU4567-Heck%2BNah%2BLinks-_00033.jpg">nahlink</td>
+  </tr>
+  <tr>
+    <td>Rechts</td>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Heck/2020-07-18%2B17-21-47%2BALU4567-Heck%2BNah%2BRechts-_00030.jpg">nahrecht</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Weit</td>
+    <td>Links</td>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Heck/2020-07-18%2B17-21-47%2BALU4567-Heck%2BWeit%2BLinks-_00043.jpg"></td>
+  </tr>
+   <tr>
+    <td>Rechts</td>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Heck/2020-07-18%2B17-21-47%2BALU4567-Heck%2BWeit%2BRechts-_00040.jpg"></td>
   </tr>
 </table>
 
