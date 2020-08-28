@@ -84,19 +84,7 @@ We skip an image for each step
   </tr>
 </table>
 
-### Schweller
-<table>
-  <tr>
-    <td>Links</td>
-    <td>Rechts</td>
-  </tr>
-  <tr>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Schweller/2020-07-18%2B17-21-47%2BALU4567-Schweller-L-_00222.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Schweller/2020-07-18%2B17-21-47%2BALU4567-Schweller-R-_00243.jpg"></td>
-  </tr>
-</table>
-
-### Other
+#### Issue Note: below the labels for the images say Links Rechts but it looks more like Uber and Unter to me
 
 <table>
   <tr>
@@ -104,41 +92,43 @@ We skip an image for each step
     <td rowspan="2">Nah</td>
     <td>Links</td>
     <td><img width="200" alt="car_img" src="Data-CarPictures/Front/2020-07-18%2B17-21-47%2BALU4567-Front%2BNah%2BLinks-_00023.jpg"></td>
+    <td rowspan="4">Heck</td>
+    <td rowspan="2">Nah</td>
+    <td>Links</td>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Heck/2020-07-18%2B17-21-47%2BALU4567-Heck%2BNah%2BLinks-_00033.jpg"></td>
   </tr>
   <tr>
     <td>Rechts</td>
     <td><img width="200" alt="car_img" src="Data-CarPictures/Front/2020-07-18%2B17-21-47%2BALU4567-Front%2BNah%2BRechts-_00020.jpg"></td>
+    <td>Rechts</td>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Heck/2020-07-18%2B17-21-47%2BALU4567-Heck%2BNah%2BRechts-_00030.jpg"></td>
   </tr>
   <tr>
     <td rowspan="2">Weit</td>
     <td>Links</td>
     <td><img width="200" alt="car_img" src="Data-CarPictures/Front/2020-07-18%2B17-21-47%2BALU4567-Front%2BWeit%2BLinks-_00313.jpg"></td>
-  </tr>
-   <tr>
-    <td>Rechts</td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Front/2020-07-18%2B17-21-47%2BALU4567-Front%2BWeit%2BRechts-_00310.jpg"></td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td rowspan="4">Heck</td>
-    <td rowspan="2">Nah</td>
-    <td>Links</td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Heck/2020-07-18%2B17-21-47%2BALU4567-Heck%2BNah%2BLinks-_00033.jpg">nahlink</td>
-  </tr>
-  <tr>
-    <td>Rechts</td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Heck/2020-07-18%2B17-21-47%2BALU4567-Heck%2BNah%2BRechts-_00030.jpg">nahrecht</td>
-  </tr>
-  <tr>
     <td rowspan="2">Weit</td>
     <td>Links</td>
     <td><img width="200" alt="car_img" src="Data-CarPictures/Heck/2020-07-18%2B17-21-47%2BALU4567-Heck%2BWeit%2BLinks-_00043.jpg"></td>
   </tr>
    <tr>
     <td>Rechts</td>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Front/2020-07-18%2B17-21-47%2BALU4567-Front%2BWeit%2BRechts-_00310.jpg"></td>
+    <td>Rechts</td>
     <td><img width="200" alt="car_img" src="Data-CarPictures/Heck/2020-07-18%2B17-21-47%2BALU4567-Heck%2BWeit%2BRechts-_00040.jpg"></td>
+  </tr>
+</table>
+
+#### Schweller
+<table>
+  <tr>
+    <td rowspan="2">Schweller</td>
+    <td>Links</td>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Schweller/2020-07-18%2B17-21-47%2BALU4567-Schweller-L-_00222.jpg"></td>
+  </tr>
+  <tr>
+    <td>Rechts</td>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Schweller/2020-07-18%2B17-21-47%2BALU4567-Schweller-R-_00243.jpg"></td>
   </tr>
 </table>
 
