@@ -25,30 +25,30 @@ We skip an image for each step
   <tr>
     <td rowspan="3">Links</td>
     <td>Dach</td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00190.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00192.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00194.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00196.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00198.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00200.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00190.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00192.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00194.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00196.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00198.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00200.jpg"></td>
   </tr>
   <tr>
     <td>Seite Mitte</td>
-    <td><img width="200" alt="car_img" src="/Data-CarPictures/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BMitte-_00130.jpg"></td>
-    <td><img width="200" alt="car_img" src="/Data-CarPictures/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BMitte-_00132.jpg"></td>
-    <td><img width="200" alt="car_img" src="/Data-CarPictures/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BMitte-_00134.jpg"></td>
-    <td><img width="200" alt="car_img" src="/Data-CarPictures/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BMitte-_00136.jpg"></td>
-    <td><img width="200" alt="car_img" src="/Data-CarPictures/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BMitte-_00138.jpg"></td>
-    <td><img width="200" alt="car_img" src="/Data-CarPictures/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BMitte-_00140.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BMitte-_00130.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BMitte-_00132.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BMitte-_00134.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BMitte-_00136.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BMitte-_00138.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BMitte-_00140.jpg"></td>
   </tr>
   <tr>
     <td>Seite Unten</td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Unten/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BUnten-_00110.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Unten/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BUnten-_00112.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Unten/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BUnten-_00114.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Unten/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BUnten-_00116.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Unten/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BUnten-_00118.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Unten/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BUnten-_00120.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Seite/Unten/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BUnten-_00110.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Seite/Unten/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BUnten-_00112.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Seite/Unten/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BUnten-_00114.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Seite/Unten/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BUnten-_00116.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Seite/Unten/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BUnten-_00118.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Seite/Unten/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BUnten-_00120.jpg"></td>
   </tr>
 </table>
 
@@ -56,30 +56,30 @@ We skip an image for each step
   <tr>
     <td rowspan="3">Rechts</td>
     <td>Dach</td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Rechts-_00180.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Rechts-_00178.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Rechts-_00176.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Rechts-_00174.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Rechts-_00172.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Rechts-_00170.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Rechts-_00180.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Rechts-_00178.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Rechts-_00176.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Rechts-_00174.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Rechts-_00172.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Rechts-_00170.jpg"></td>
   </tr>
   <tr>
     <td>Seite Mitte</td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BMitte-_00080.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BMitte-_00078.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BMitte-_00076.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BMitte-_00074.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BMitte-_00072.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BMitte-_00070.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BMitte-_00080.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BMitte-_00078.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BMitte-_00076.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BMitte-_00074.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BMitte-_00072.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BMitte-_00070.jpg"></td>
   </tr>
   <tr>
     <td>Seite Unten</td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Unten/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BUnten-_00060.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Unten/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BUnten-_00058.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Unten/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BUnten-_00056.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Unten/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BUnten-_00054.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Unten/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BUnten-_00052.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Unten/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BUnten-_00050.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Seite/Unten/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BUnten-_00060.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Seite/Unten/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BUnten-_00058.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Seite/Unten/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BUnten-_00056.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Seite/Unten/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BUnten-_00054.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Seite/Unten/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BUnten-_00052.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Seite/Unten/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BUnten-_00050.jpg"></td>
   </tr>
 </table>
 
@@ -90,31 +90,31 @@ We skip an image for each step
     <td rowspan="4">Front</td>
     <td rowspan="2">Nah</td>
     <td>Links</td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Front/2020-07-18%2B17-21-47%2BALU4567-Front%2BNah%2BLinks-_00023.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Front/2020-07-18%2B17-21-47%2BALU4567-Front%2BNah%2BLinks-_00023.jpg"></td>
     <td rowspan="4">Heck</td>
     <td rowspan="2">Nah</td>
     <td>Links</td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Heck/2020-07-18%2B17-21-47%2BALU4567-Heck%2BNah%2BLinks-_00033.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Heck/2020-07-18%2B17-21-47%2BALU4567-Heck%2BNah%2BLinks-_00033.jpg"></td>
   </tr>
   <tr>
     <td>Rechts</td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Front/2020-07-18%2B17-21-47%2BALU4567-Front%2BNah%2BRechts-_00020.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Front/2020-07-18%2B17-21-47%2BALU4567-Front%2BNah%2BRechts-_00020.jpg"></td>
     <td>Rechts</td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Heck/2020-07-18%2B17-21-47%2BALU4567-Heck%2BNah%2BRechts-_00030.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Heck/2020-07-18%2B17-21-47%2BALU4567-Heck%2BNah%2BRechts-_00030.jpg"></td>
   </tr>
   <tr>
     <td rowspan="2">Weit</td>
     <td>Links</td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Front/2020-07-18%2B17-21-47%2BALU4567-Front%2BWeit%2BLinks-_00313.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Front/2020-07-18%2B17-21-47%2BALU4567-Front%2BWeit%2BLinks-_00313.jpg"></td>
     <td rowspan="2">Weit</td>
     <td>Links</td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Heck/2020-07-18%2B17-21-47%2BALU4567-Heck%2BWeit%2BLinks-_00043.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Heck/2020-07-18%2B17-21-47%2BALU4567-Heck%2BWeit%2BLinks-_00043.jpg"></td>
   </tr>
    <tr>
     <td>Rechts</td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Front/2020-07-18%2B17-21-47%2BALU4567-Front%2BWeit%2BRechts-_00310.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Front/2020-07-18%2B17-21-47%2BALU4567-Front%2BWeit%2BRechts-_00310.jpg"></td>
     <td>Rechts</td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Heck/2020-07-18%2B17-21-47%2BALU4567-Heck%2BWeit%2BRechts-_00040.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Heck/2020-07-18%2B17-21-47%2BALU4567-Heck%2BWeit%2BRechts-_00040.jpg"></td>
   </tr>
 </table>
 
@@ -123,11 +123,11 @@ We skip an image for each step
   <tr>
     <td rowspan="2">Schweller</td>
     <td>Links</td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Schweller/2020-07-18%2B17-21-47%2BALU4567-Schweller-L-_00222.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Schweller/2020-07-18%2B17-21-47%2BALU4567-Schweller-L-_00222.jpg"></td>
   </tr>
   <tr>
     <td>Rechts</td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Schweller/2020-07-18%2B17-21-47%2BALU4567-Schweller-R-_00243.jpg"></td>
+    <td><img width="200" alt="car_img" src="Example-Data/Schweller/2020-07-18%2B17-21-47%2BALU4567-Schweller-R-_00243.jpg"></td>
   </tr>
 </table>
 
