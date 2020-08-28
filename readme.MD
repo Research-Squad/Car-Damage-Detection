@@ -8,16 +8,44 @@ A project where we detect various classes of damage on cars moving through a dev
 ## Image Examples
 
 ### Dach
-| Links| Rechts|
-|:-------------------------:|:-------------------------:|
-|<img width="1604" alt="car_img_1" src="pictures/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00190.jpg"> 1 |  <img width="1604" alt="car_img_2" src="pictures/2020-07-18%2B17-21-47%2BALU4567-Front%2BWeit%2BRechts-_00311.jpg"> 2 |
-|<img width="1604" alt="car_img_4" src="pictures/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BUnten-_00059.jpg"> 3 |  <img width="1604" alt="car_img_5" src="pictures/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BMitte-_00080.jpg"> 4 |
+<table>
+  <tr>
+    <td>Links</td>
+    <td>Rechts</td>
+  </tr>
+  <tr>
+    <td><img width="300" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00190.jpg"></td>
+    <td><img width="300" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Rechts-_00170.jpg"></td>
+  </tr>
+  <tr>
+    <td><img width="300" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00194.jpg"></td>
+    <td><img width="300" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Rechts-_00174.jpg"></td>
+  </tr>
+ <tr>
+    <td><img width="300" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00194.jpg"></td>
+    <td><img width="300" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00201.jpg"></td>
+  </tr>
+</table>
 
 ### Front
-| Nah | Weit |
-| Links| Rechts|| Links| Rechts|
-|<img width="1604" alt="car_img_1" src="pictures/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00190.jpg"> 1 |  <img width="1604" alt="car_img_2" src="pictures/2020-07-18%2B17-21-47%2BALU4567-Front%2BWeit%2BRechts-_00311.jpg"> 2 |
-|<img width="1604" alt="car_img_4" src="pictures/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BUnten-_00059.jpg"> 3 |  <img width="1604" alt="car_img_5" src="pictures/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BMitte-_00080.jpg"> 4 |
+<table>
+  <tr>
+    <td colspan="2">Nah</td>
+   <td colspan="2">Weit</td>
+  </tr>
+  <tr>
+    <td>Links</td>
+    <td>Rechts</td>
+    <td>Links</td>
+    <td>Rechts</td>
+  </tr>
+  <tr>
+    <td><img width="300" alt="car_img" src="Data-CarPictures/Front/2020-07-18%2B17-21-47%2BALU4567-Front%2BNah%2BLinks-_00023.jpg"></td>
+    <td><img width="300" alt="car_img" src="Data-CarPictures/Front/2020-07-18%2B17-21-47%2BALU4567-Front%2BNah%2BRechts-_00020.jpg"></td>
+    <td><img width="300" alt="car_img" src="Data-CarPictures/Front/2020-07-18%2B17-21-47%2BALU4567-Front%2BWeit%2BLinks-_00313.jpg"></td>
+    <td><img width="300" alt="car_img" src="Data-CarPictures/Front/2020-07-18%2B17-21-47%2BALU4567-Front%2BWeit%2BRechts-_00310.jpg"></td>
+  </tr>
+</table>
 
 ### Heck
 | Links| Rechts|
