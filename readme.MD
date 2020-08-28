@@ -7,98 +7,66 @@ A project where we detect various classes of damage on cars moving through a dev
 
 ## Image Examples
 
-### Dach
 <table>
+  
   <tr>
-    <td>Links</td>
-    <td>Rechts</td>
+    <td colspan="3">Links</td>
+    <td colspan="3">Rechts</td>
+  <tr>
+  <tr>
+    <td>Dach</td>
+    <td>Seite Mitte</td>
+    <td>Seite Unten</td>
+    <td>Dach</td>
+    <td>Seite Mitte</td>
+    <td>Seite Unten</td>
   </tr>
   <tr>
     <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00190.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Rechts-_00170.jpg"></td>
-  </tr>
-  <tr>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00192.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Rechts-_00172.jpg"></td>
-  </tr>
-  <tr>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00194.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Rechts-_00174.jpg"></td>
-  </tr>
-  <tr>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00196.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Rechts-_00176.jpg"></td>
-  </tr>
-  <tr>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00198.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Rechts-_00178.jpg"></td>
-  </tr>
-  <tr>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00200.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Rechts-_00180.jpg"></td>
-  </tr>
-</table>
-
-### Seite Mitte
-<table>
-  <tr>
-    <td>Links</td>
-    <td>Rechts</td>
-  </tr>
-  <tr>
     <td><img width="200" alt="car_img" src="/Data-CarPictures/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BMitte-_00130.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BMitte-_00070.jpg"></td>
-  </tr>
-  <tr>
-    <td><img width="200" alt="car_img" src="/Data-CarPictures/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BMitte-_00132.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BMitte-_00072.jpg"></td>
-  </tr>
-  <tr>
-    <td><img width="200" alt="car_img" src="/Data-CarPictures/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BMitte-_00134.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BMitte-_00074.jpg"></td>
-  </tr>
-  <tr>
-    <td><img width="200" alt="car_img" src="/Data-CarPictures/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BMitte-_00136.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BMitte-_00076.jpg"></td>
-  </tr>
-  <tr>
-    <td><img width="200" alt="car_img" src="/Data-CarPictures/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BMitte-_00138.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BMitte-_00078.jpg"></td>
-  </tr>
-  <tr>
-    <td><img width="200" alt="car_img" src="/Data-CarPictures/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BMitte-_00140.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BMitte-_00080.jpg"></td>
-  </tr>
-</table>
-
-### Seite Unten
-<table>
-  <tr>
-    <td>Links</td>
-    <td>Rechts</td>
-  </tr>
-  <tr>
     <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Unten/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BUnten-_00110.jpg"></td>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Rechts-_00170.jpg"></td>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BMitte-_00070.jpg"></td>
     <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Unten/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BUnten-_00050.jpg"></td>
   </tr>
   <tr>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00192.jpg"></td>
+    <td><img width="200" alt="car_img" src="/Data-CarPictures/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BMitte-_00132.jpg"></td>
     <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Unten/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BUnten-_00112.jpg"></td>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Rechts-_00172.jpg"></td>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BMitte-_00072.jpg"></td>
     <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Unten/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BUnten-_00052.jpg"></td>
   </tr>
   <tr>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00194.jpg"></td>
+    <td><img width="200" alt="car_img" src="/Data-CarPictures/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BMitte-_00134.jpg"></td>
     <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Unten/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BUnten-_00114.jpg"></td>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Rechts-_00174.jpg"></td>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BMitte-_00074.jpg"></td>
     <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Unten/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BUnten-_00054.jpg"></td>
   </tr>
   <tr>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00196.jpg"></td>
+    <td><img width="200" alt="car_img" src="/Data-CarPictures/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BMitte-_00136.jpg"></td>
     <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Unten/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BUnten-_00116.jpg"></td>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Rechts-_00176.jpg"></td>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BMitte-_00076.jpg"></td>
     <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Unten/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BUnten-_00056.jpg"></td>
   </tr>
   <tr>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00198.jpg"></td>
+    <td><img width="200" alt="car_img" src="/Data-CarPictures/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BMitte-_00138.jpg"></td>
     <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Unten/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BUnten-_00118.jpg"></td>
-    <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Unten/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BUnten-_00058.jpg"></td>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Rechts-_00178.jpg"></td>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BMitte-_00078.jpg"></td>
+   <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Unten/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BUnten-_00058.jpg"></td>
   </tr>
   <tr>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00200.jpg"></td>
+    <td><img width="200" alt="car_img" src="/Data-CarPictures/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BMitte-_00140.jpg"></td>
     <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Unten/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BUnten-_00120.jpg"></td>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Rechts-_00180.jpg"></td>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BMitte-_00080.jpg"></td>
     <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Unten/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BUnten-_00060.jpg"></td>
   </tr>
 </table>
