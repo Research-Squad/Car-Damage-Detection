@@ -65,6 +65,10 @@ A project where we detect various classes of damage on cars moving through a dev
     <td><img width="200" alt="car_img" src="/Data-CarPictures/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BMitte-_00138.jpg"></td>
     <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BMitte-_00078.jpg"></td>
   </tr>
+  <tr>
+    <td><img width="200" alt="car_img" src="/Data-CarPictures/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BMitte-_00140.jpg"></td>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Mitte/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BMitte-_00080.jpg"></td>
+  </tr>
 </table>
 
 ### Seite Unten
@@ -92,6 +96,10 @@ A project where we detect various classes of damage on cars moving through a dev
   <tr>
     <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Unten/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BUnten-_00118.jpg"></td>
     <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Unten/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BUnten-_00058.jpg"></td>
+  </tr>
+  <tr>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Unten/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BUnten-_00120.jpg"></td>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Seite/Unten/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BUnten-_00060.jpg"></td>
   </tr>
 </table>
 
