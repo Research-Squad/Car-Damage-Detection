@@ -1,7 +1,7 @@
 # Damage Detection on Cars using Deflectometry & Computer Vision
 
 ## Overview
-Creation damage classification model for slow moving vehicle seen from 6+ angles with ~10 images per angle.
+Damage detection, bounding box, & classification model for slow moving vehicle seen from 8+ angles with ~10 images per angle.
 
 ### Classes
 * corrosion
