@@ -14,16 +14,28 @@ A project where we detect various classes of damage on cars moving through a dev
     <td>Rechts</td>
   </tr>
   <tr>
-    <td><img width="300" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00190.jpg"></td>
-    <td><img width="300" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Rechts-_00170.jpg"></td>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00190.jpg"></td>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Rechts-_00170.jpg"></td>
   </tr>
   <tr>
-    <td><img width="300" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00194.jpg"></td>
-    <td><img width="300" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Rechts-_00174.jpg"></td>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00192.jpg"></td>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Rechts-_00172.jpg"></td>
   </tr>
- <tr>
-    <td><img width="300" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00194.jpg"></td>
-    <td><img width="300" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00201.jpg"></td>
+  <tr>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00194.jpg"></td>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Rechts-_00174.jpg"></td>
+  </tr>
+  <tr>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00196.jpg"></td>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Rechts-_00176.jpg"></td>
+  </tr>
+  <tr>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00198.jpg"></td>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Rechts-_00178.jpg"></td>
+  </tr>
+  <tr>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00200.jpg"></td>
+    <td><img width="200" alt="car_img" src="Data-CarPictures/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Rechts-_00180.jpg"></td>
   </tr>
 </table>
 
