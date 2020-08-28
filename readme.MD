@@ -7,10 +7,11 @@ A project where we detect various classes of damage on cars moving through a dev
 
 ## Image Examples
 
-| | | |
-|:-------------------------:|:-------------------------:|:-------------------------:|
-|<img width="1604" alt="car_img_1" src="pictures/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00190.jpg"> 1 |  <img width="1604" alt="car_img_2" src="pictures/2020-07-18%2B17-21-47%2BALU4567-Front%2BWeit%2BRechts-_00311.jpg"> 2 |<img width="1604" alt="car_img_3" src="pictures/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BMitte-_00135.jpg"> 3 |
-|<img width="1604" alt="car_img_4" src="pictures/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BUnten-_00059.jpg"> 4 |  <img width="1604" alt="car_img_5" src="pictures/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BMitte-_00080.jpg"> 5 |<img width="1604" alt="car_img_6" src="pictures/2020-07-18%2B17-21-47%2BALU4567-Seite%2BLinks%2BUnten-_00110.jpg"> 6 |
+### Dach
+| Links| Rechts|
+|:-------------------------:|:-------------------------:|
+|<img width="1604" alt="car_img_1" src="pictures/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00190.jpg"> 1 |  <img width="1604" alt="car_img_2" src="pictures/2020-07-18%2B17-21-47%2BALU4567-Front%2BWeit%2BRechts-_00311.jpg"> 2 |
+|<img width="1604" alt="car_img_4" src="pictures/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BUnten-_00059.jpg"> 3 |  <img width="1604" alt="car_img_5" src="pictures/2020-07-18%2B17-21-47%2BALU4567-Seite%2BRechts%2BMitte-_00080.jpg"> 4 |
 
 ### Image Variability
 
