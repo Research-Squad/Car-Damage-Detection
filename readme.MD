@@ -23,7 +23,7 @@ We skip an image for each step
 
 <table>
   <tr>
-    <td rowspan="3">Links</td>
+    <td rowspan="3">Links 👈</td>
     <td>Dach</td>
     <td><img width="200" alt="car_img" src="Example-Data/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00190.jpg"></td>
     <td><img width="200" alt="car_img" src="Example-Data/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Links-_00192.jpg"></td>
@@ -54,7 +54,7 @@ We skip an image for each step
 
 <table>
   <tr>
-    <td rowspan="3">Rechts</td>
+    <td rowspan="3">Rechts 👉</td>
     <td>Dach</td>
     <td><img width="200" alt="car_img" src="Example-Data/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Rechts-_00180.jpg"></td>
     <td><img width="200" alt="car_img" src="Example-Data/Dach/2020-07-18%2B17-21-47%2BALU4567-Dach-Rechts-_00178.jpg"></td>
