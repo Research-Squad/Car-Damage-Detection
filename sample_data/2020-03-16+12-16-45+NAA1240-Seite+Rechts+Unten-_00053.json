@@ -1,0 +1,47 @@
+{
+  "version": "3.21.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "scratch",
+      "line_color": null,
+      "fill_color": null,
+      "points": [
+        [
+          3708.6206896551726,
+          1377.5862068965519
+        ],
+        [
+          3651.724137931035,
+          1508.6206896551726
+        ],
+        [
+          3656.896551724138,
+          1508.6206896551726
+        ],
+        [
+          3710.344827586207,
+          1403.448275862069
+        ]
+      ],
+      "shape_type": "polygon",
+      "flags": {}
+    }
+  ],
+  "lineColor": [
+    0,
+    255,
+    0,
+    128
+  ],
+  "fillColor": [
+    255,
+    0,
+    0,
+    128
+  ],
+  "imagePath": "2020-03-16+12-16-45+NAA1240-Seite+Rechts+Unten-_00053.jpg",
+  "imageData": null,
+  "imageHeight": 3000,
+  "imageWidth": 4096
+}

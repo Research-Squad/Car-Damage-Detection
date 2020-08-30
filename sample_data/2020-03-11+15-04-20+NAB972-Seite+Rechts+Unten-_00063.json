@@ -1,0 +1,47 @@
+{
+  "version": "3.21.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "corrosion",
+      "line_color": null,
+      "fill_color": null,
+      "points": [
+        [
+          2549.75,
+          1422.75
+        ],
+        [
+          2521.625,
+          1741.5
+        ],
+        [
+          2590.375,
+          1732.125
+        ],
+        [
+          2543.5,
+          1638.375
+        ]
+      ],
+      "shape_type": "polygon",
+      "flags": {}
+    }
+  ],
+  "lineColor": [
+    0,
+    255,
+    0,
+    128
+  ],
+  "fillColor": [
+    255,
+    0,
+    0,
+    128
+  ],
+  "imagePath": "2020-03-11+15-04-20+NAB972-Seite+Rechts+Unten-_00063.jpg",
+  "imageData": null,
+  "imageHeight": 3000,
+  "imageWidth": 4096
+}

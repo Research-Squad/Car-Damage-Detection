@@ -1,0 +1,43 @@
+{
+  "version": "3.21.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "dent_bump",
+      "line_color": null,
+      "fill_color": null,
+      "points": [
+        [
+          3837.25,
+          2482.125
+        ],
+        [
+          3890.375,
+          2594.625
+        ],
+        [
+          4052.875,
+          2482.125
+        ]
+      ],
+      "shape_type": "polygon",
+      "flags": {}
+    }
+  ],
+  "lineColor": [
+    0,
+    255,
+    0,
+    128
+  ],
+  "fillColor": [
+    255,
+    0,
+    0,
+    128
+  ],
+  "imagePath": "2020-02-28+14-00-42+N2FU9-Seite+Links+Mitte-_00130.jpg",
+  "imageData": null,
+  "imageHeight": 3000,
+  "imageWidth": 4096
+}
