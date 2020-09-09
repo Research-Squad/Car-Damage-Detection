@@ -1,1 +1,1 @@
-ls *.json | while read f; do xargs grep -o "label.*"; done; 
+ls *.json | while read f; do xargs grep -o "label.*"; done;
