@@ -20,7 +20,8 @@
     ],
     "corrosion": [
         "corrosion",
-        "Korrosion"
+        "Korrosion",
+        "Corrosion"
     ],
     "scratch": [
         "scratch",
@@ -29,7 +30,8 @@
     ],
     "crack": [
         "crack",
-        "Riss"
+        "Riss",
+        "Crack"
     ],
     "dirt": [
         "dirt",
@@ -37,10 +39,12 @@
     ],
     "rim_damage": [
         "rim_damage",
-        "Felgenschaden"
+        "Felgenschaden",
+        "Rim damage"
     ],
     "misc": [
         "misc",
-        "Sonstiges"
+        "Sonstiges",
+        "Miscellaneous (Misc)"
     ]
 }
