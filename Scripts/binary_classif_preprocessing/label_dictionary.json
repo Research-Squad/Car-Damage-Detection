@@ -1,0 +1,46 @@
+{
+    "reflection": [
+        "reflection",
+        "Reflektion",
+        "Reflection"
+    ],
+    "vehicle": [
+        "vehicle",
+        "Fahrzeug",
+        "Vehicle"
+    ],
+    "bump": [
+        "bump",
+        "Dent/Bump",
+        "dent_bump",
+        "Delle",
+        "Deformation",
+        "Verformung",
+        "deformation"
+    ],
+    "corrosion": [
+        "corrosion",
+        "Korrosion"
+    ],
+    "scratch": [
+        "scratch",
+        "Kratzer",
+        "Scratch"
+    ],
+    "crack": [
+        "crack",
+        "Riss"
+    ],
+    "dirt": [
+        "dirt",
+        "Dirt"
+    ],
+    "rim_damage": [
+        "rim_damage",
+        "Felgenschaden"
+    ],
+    "misc": [
+        "misc",
+        "Sonstiges"
+    ]
+}

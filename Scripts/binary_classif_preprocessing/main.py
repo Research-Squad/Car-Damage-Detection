@@ -6,17 +6,43 @@
 """
 
 import os
-from os import PathLike
 import argparse
-import numpy as np
+from pathlib import Path
+from multiprocessing import Pool, cpu_count
 from argparser import parse_args
+from load_data import check_matching_json_jpeg, group_paths, load_label_dict
+from process_files import worker
 
 
 def main():
     """Main function"""
     args = parse_args()
+    if not check_matching_json_jpeg(args.input):
+        print(f"Found lone json/jpeg files under {args.input}")
+        exit(1)
+
     make_output_dirs(args)
-    print(args.window_size, args.overlap)
+
+    label_dict = load_label_dict(Path("label_dictionary.json"))
+    accepted_labels = (
+        label_dict["bump"]
+        .union(label_dict["corrosion"])
+        .union(label_dict["scratch"])
+        .union(label_dict["crack"])
+        .union(label_dict["dirt"])
+        .union(label_dict["rim_damage"])
+    )
+
+    images_groups = group_paths(args.input, group_size=args.group_size)[:10]
+    map_arg = zip(
+        [args] * len(images_groups),
+        [accepted_labels] * len(images_groups),
+        list(range(len(images_groups))),
+        images_groups,
+    )
+
+    with Pool(processes=args.jobs if args.jobs is not None else (cpu_count() - 1)) as p:
+        _ = p.starmap(func=worker, iterable=map_arg)
 
 
 def make_output_dirs(args: argparse.ArgumentParser) -> None:
