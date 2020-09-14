@@ -38,18 +38,22 @@ else
 fi
 
 echo "Search path is $SEARCH_PATH" >&2
-json_files=$($FD_CMD -j $(nproc) --absolute-path '^\d{4}-\d{2}-\d{2}.*.json$' $SEARCH_PATH)
 
-counter=0
-while read -r json_filepath; do
-    filename=$(basename "$json_filepath")
-    image_filename=${filename%.*}.jpg
-    image_filepath=$($FD_CMD -j $(nproc) --absolute-path -F "$image_filename" $SEARCH_PATH | head -n 1);
-    if [ -n "$image_filepath" ]; then
-        echo $json_filepath;
-        echo $image_filepath;
-        count=$((count+1))
-        echo -ne "Found $count annotated images\r" >&2
-    fi
-done <<< "$json_files"
-echo -e "\nAll $# subdir explored" >&2
+trap "rm filepaths.txt filenames_and_paths.csv filenames_and_paths_uniq.csv filenames_and_paths_matching.csv" EXIT
+
+# Lists all paths to json and jpeg files which start with dates in their filename
+$FD_CMD -j $(nproc) --absolute-path -e json -e jpg '^\d{4}-\d{2}-\d{2}' $@ > filepaths.txt
+# Prepend the filename to each line
+sed -E -e '!d; s/^(.*\/)(.*)$/\2,\1\2/g' filepaths.txt > filenames_and_paths.csv
+# Sort and uniq every line based on the filename
+sort -u -t, -k 1,1 filenames_and_paths.csv -o filenames_and_paths_uniq.csv
+# Keeps all lines that contain "json" and also the line right before it
+# since jpg>json in lexicographic order, the file right before is garanteed
+# to be a jpg file of the same name
+rg 'json' -B 1 --no-context-separator filenames_and_paths_uniq.csv > filenames_and_paths_matching.csv
+cut -d ',' -f 2 filenames_and_paths_matching.csv > matching.txt
+
+line_count=$(cat matching.txt | wc -l)
+pair_count=$((line_count/2))
+echo "Done. $pair_count jpeg/json pairs found."
+echo "Outputted to matching.txt"
