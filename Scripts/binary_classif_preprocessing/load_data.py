@@ -82,10 +82,14 @@ def load_masks(
             # it was really hard to spot...
             points = []
             for entry in shape["points"]:
-                points.append([entry[1], entry[0]])
+                # Yes, having a json null coordinate happened in the past
+                if entry[0] is not None and entry[1] is not None:
+                    points.append([entry[1], entry[0]])
 
-            mask = polygon2mask(image_shape, points)
-            label_mask |= mask
+            if len(points) != 0:
+                mask = polygon2mask(image_shape, points)
+                label_mask |= mask
+
         labels_masks.append(label_mask)
 
     return np.asarray(labels_masks)
@@ -100,13 +104,15 @@ def check_matching_json_jpeg(directory: PathLike) -> bool:
     :returns: True if all JPEG files got an associated JSON file and all JSON files got an associated JPEG file.
     """
     files = [f for f in os.listdir(directory) if f.endswith((".jpg", ".json"))]
-    if (
-        len(files) & 1
-    ):  # We should have an even number of files since they come in pairs
-        return False
+    #if (
+    #    len(files) & 1
+    #):  # We should have an even number of files since they come in pairs
+    #    return False
     for f in files:
         if f.endswith(".json") and f.replace(".json", ".jpg") not in files:
+            print(f)
             return False
         if f.endswith(".jpg") and f.replace(".jpg", ".json") not in files:
+            print(f)
             return False
     return True

@@ -1,3 +1,4 @@
+from time import time
 import os
 from os import PathLike
 from pathlib import Path
@@ -27,7 +28,7 @@ def worker(
     )[..., np.newaxis]
 
     # Highlights masked parts in red in the outputted chunks to help debug
-    images[..., :1][masks] = 255
+    # images[..., :1][masks] = 255
 
     windows_images = windowify(masked_image_array=images, window_size=window_size)
     # The last dim of the windowed labels gets squeezed and consequently removed
@@ -42,17 +43,21 @@ def worker(
     windows_labels = windows_labels.reshape((-1, *windows_labels.shape[-3:]))
     binary_labels = np.any(windows_labels, axis=(1, 2, 3))
 
-    for i, (window_image, binary_label) in enumerate(
-        zip(windows_images, binary_labels)
+    for i, (window_image, window_label, binary_label) in enumerate(
+        zip(windows_images, windows_labels, binary_labels)
     ):
         # Including the uid in the filename is really important, otherwise processes
         # will overwrite each other's file. To test if this is happening, just run
         # os.path.isfile(output_path) before writing. If it's true at some point then
         # you got a problem
-        filename = f"chunk_{uid:05d}_{i:05d}.jpg"
+        # The time() shenanigans are a way to generate a uid, you shouldn't solely rely on it
+        # but in combination with the uid and i index, it should be enough
+        filename = f"chunk_{uid:05d}_{i:05d}_{int(time()%1*1e9):09d}"
         if binary_label:
             output_path = os.path.join(output_directory, "positive", filename)
         else:
             output_path = os.path.join(output_directory, "negative", filename)
-        imsave(output_path, window_image, check_contrast=False)
+        imsave(output_path + ".jpg", window_image, check_contrast=False)
+        np.save(output_path + "_mask.jpg", window_label)
         print(output_path, end="\r")
+    print(f"Process {uid:03d} done\n")

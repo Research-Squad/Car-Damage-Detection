@@ -35,12 +35,14 @@
     ],
     "dirt": [
         "dirt",
-        "Dirt"
+        "Dirt",
+        "Verschmutzung"
     ],
     "rim_damage": [
         "rim_damage",
         "Felgenschaden",
-        "Rim damage"
+        "Rim damage",
+        "Bordsteinschaden"
     ],
     "misc": [
         "misc",

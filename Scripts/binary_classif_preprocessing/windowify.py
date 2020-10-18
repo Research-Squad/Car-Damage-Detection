@@ -23,7 +23,7 @@ def windowify(masked_image_array: np.ndarray, window_size: int) -> np.ndarray:
     return windows
 
 
-def find_step(height: int, window_size: int) -> int:
+def find_step(height: int, window_size: int, d: int = 4) -> int:
     """
     :param height: image's height, or width or whatever size you want to put the overlapping windows into
     :param window_size: the size of the windows, every window has the same size
@@ -33,6 +33,6 @@ def find_step(height: int, window_size: int) -> int:
     For the formulae detailed, see notebook "Windowify.ipynb"@2020-09-06
     """
     assert window_size < height, "Window size must be smaller than height !"
-    n = int(height / window_size) + 1
-    overlap = int((window_size * n - height) / (n + 1))
+    n = int(height / window_size) + d
+    overlap = int((window_size * n - height) / (n-d))
     return window_size - overlap
