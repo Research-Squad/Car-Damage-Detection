@@ -64,4 +64,4 @@ def worker(
             output_path = os.path.join(output_directory, "negative", filename)
         imsave(output_path + ".jpg", window_image, check_contrast=False)
         print(output_path, end="\r")
-    print(f"\nGroup {uid:03d} done, processed {images.shape[0]} images !\n")
+    print(f"\nGroup {uid:03d} done\n")
