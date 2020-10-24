@@ -1,9 +1,8 @@
-from time import time
 import os
 from os import PathLike
 from pathlib import Path
+from time import time
 from typing import List, Set
-from random import randint
 
 import numpy as np
 from skimage.io import imsave
@@ -17,6 +16,7 @@ def worker(
 ) -> None:
     output_directory: PathLike = args.output
     window_size: int = args.window_size
+    overlap: int = args.overlap
 
     json_files: List[PathLike] = [
         Path(str(f).replace(".jpg", ".json")) for f in image_files
@@ -30,11 +30,13 @@ def worker(
     # Highlights masked parts in red in the outputted chunks to help debug
     # images[..., :1][masks] = 255
 
-    windows_images = windowify(masked_image_array=images, window_size=window_size)
+    windows_images = windowify(
+        masked_image_array=images, window_size=window_size, overlap=overlap
+    )
     # The last dim of the windowed labels gets squeezed and consequently removed
-    windows_labels = windowify(masked_image_array=masks, window_size=window_size)[
-        ..., np.newaxis
-    ]
+    windows_labels = windowify(
+        masked_image_array=masks, window_size=window_size, overlap=overlap
+    )[..., np.newaxis]
     # windows_images = images
     # windows_labels = images.astype(np.bool)
 

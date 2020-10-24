@@ -43,6 +43,17 @@ def parse_args():
     )
 
     main_arg_parser.add_argument(
+        "--overlap",
+        default=200,
+        metavar="200",
+        type=int,
+        required=False,
+        help="Proportion of pixels in a window that's going to be in common with another window. "
+        "Half of the window size is about right. "
+        "Default: 200 pixels",
+    )
+
+    main_arg_parser.add_argument(
         "-g",
         "--group-size",
         default=30,
