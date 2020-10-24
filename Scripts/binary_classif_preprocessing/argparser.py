@@ -83,6 +83,14 @@ def parse_args():
     )
 
     main_arg_parser.add_argument(
+        "-m",
+        "--save-masks",
+        action="store_true",
+        help="Whether to save scratches masks or not. Might be useful one day if we want to predict exact location."
+             "Default: don't save masks.",
+    )
+
+    main_arg_parser.add_argument(
         "-v",
         "--verbose",
         action="store_true",
