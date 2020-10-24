@@ -5,8 +5,14 @@ from path_type import PathType
 def parse_args():
     main_arg_parser = argparse.ArgumentParser(
         description="Converts multiple JPEG image to chunks and put the chunks into "
-        'a "positive" folder if it features a scratch '
-        'a "negative" folder if it does not feature a scratch'
+        'a "positive" folder if it features a scratch and '
+        'a "negative" folder if it does not feature a scratch. '
+        "When worker processes go into 'D' status in top/htop, it means they're writing "
+        "the images to the disk (uninterruptible sleep). When they're in 'R' status, it means "
+        "that they're running the computation (polygons and windows). Watch out the amount of "
+        "memory used ! If it hits close to the machine capabilities, workers will be oom killed "
+        "without warning and the master process will hang waiting forever ! If this happens, "
+        "reduce the group size until it doesn't."
     )
 
     main_arg_parser.add_argument(
@@ -61,7 +67,7 @@ def parse_args():
         type=int,
         required=False,
         help="Number of images to be processed by a single process, if this is set to a value too big,"
-        "it might saturate the memory. "
+        "it might saturate the memory. An efficient solution to avoid memory overflow is to decrease that value."
         "Default: 500 pixels",
     )
 
