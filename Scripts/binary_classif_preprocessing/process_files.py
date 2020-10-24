@@ -54,7 +54,7 @@ def worker(
         # you got a problem
         # The time() shenanigans are a way to generate a uid, you shouldn't solely rely on it
         # but in combination with the uid and i index, it should be enough
-        filename = f"chunk_{uid:05d}_{i:05d}_{int(time()%1*1e9):09d}"
+        filename = f"chunk_{uid:07d}_{i:07d}_{int(time()%1*1e9):09d}"
         if binary_label:
             output_path = os.path.join(output_directory, "positive", filename)
             # If negative, the mask is just zeros so no point storing zeros
