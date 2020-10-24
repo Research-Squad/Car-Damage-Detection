@@ -33,7 +33,7 @@ def main():
         .union(label_dict["rim_damage"])
     )
 
-    images_groups = group_paths(args.input, group_size=args.group_size)[:10]
+    images_groups = group_paths(args.input, group_size=args.group_size)
     map_arg = zip(
         [args] * len(images_groups),
         [accepted_labels] * len(images_groups),
