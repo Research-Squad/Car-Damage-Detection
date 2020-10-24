@@ -57,9 +57,10 @@ def worker(
         filename = f"chunk_{uid:05d}_{i:05d}_{int(time()%1*1e9):09d}"
         if binary_label:
             output_path = os.path.join(output_directory, "positive", filename)
+            # If negative, the mask is just zeros so no point storing zeros
+            np.save(output_path + "_mask.jpg", window_label)
         else:
             output_path = os.path.join(output_directory, "negative", filename)
         imsave(output_path + ".jpg", window_image, check_contrast=False)
-        np.save(output_path + "_mask.jpg", window_label)
         print(output_path, end="\r")
-    print(f"Process {uid:03d} done\n")
+    print(f"\nGroup {uid:03d} done, processed {images.shape[0]} images !\n")
