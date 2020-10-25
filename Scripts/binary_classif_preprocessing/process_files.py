@@ -65,4 +65,4 @@ def worker(
         imsave(output_path + ".jpg", window_image, check_contrast=False)
         if args.verbose:
             print(output_path, end="\r")
-    print(f"Group {uid:03d} done", end="\n" if args.verbose else "\r")
+    print(f"Group {uid:05d} done", end="\n" if args.verbose else "\r")

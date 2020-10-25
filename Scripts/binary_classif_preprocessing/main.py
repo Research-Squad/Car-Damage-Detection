@@ -45,6 +45,8 @@ def main():
     with Pool(processes=args.jobs if args.jobs is not None else (cpu_count() - 1)) as p:
         _ = p.starmap(func=worker, iterable=map_arg)
 
+    print("Alles gut товарищи !")
+
 
 def make_output_dirs(args: argparse.ArgumentParser) -> None:
     """
