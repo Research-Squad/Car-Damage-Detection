@@ -34,7 +34,7 @@ def main():
     )
 
     images_groups = group_paths(args.input, group_size=args.group_size)
-    print(f"Running {len(images_groups)} groups, each of {args.group_size}")
+    print(f"Running {len(images_groups)} groups, each of {args.group_size} images")
     map_arg = zip(
         [args] * len(images_groups),
         [accepted_labels] * len(images_groups),
