@@ -87,7 +87,9 @@ def load_masks(
                 if entry[0] is not None and entry[1] is not None:
                     points.append([entry[1], entry[0]])
 
-            if len(points) != 0:
+            # A line (2 points) isn't a bounding box
+            if len(points) >= 3:
+                # Would fail when just provided with one point
                 mask = polygon2mask(image_shape, points)
                 label_mask |= mask
 
